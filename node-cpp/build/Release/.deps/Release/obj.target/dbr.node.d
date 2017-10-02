@@ -1,0 +1,1 @@
+cmd_Release/obj.target/dbr.node := g++ -shared -pthread -rdynamic -m64  -Wl,-soname=dbr.node -o Release/obj.target/dbr.node -Wl,--start-group Release/obj.target/dbr/dbr.o -Wl,--end-group -lDynamsoftBarcodeReader
